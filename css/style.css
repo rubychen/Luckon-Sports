@@ -1,0 +1,98 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+.gradient {
+	background: -webkit-linear-gradient(#0092B9, #066079); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#0092B9, #066079); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#0092B9, #066079); /* For Firefox 3.6 to 15 */
+	background-image: linear-gradient(#0092B9, #066079); /* Standard syntax */
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+/*  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+  text-align: center;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+@media (min-width: 768px) {
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .mastfoot,
+  .cover-container {
+    width: 800px;
+  }
+}
+
+.responsive-image{
+	max-width: 100%;
+	height: auto;
+}
+
+#luckon-content{
+	color: #FFF;
+	font-family: "微軟正黑體", "Microsoft JhengHei",  Tahoma , Verdana , Arial , sans-serif;
+}
+
+.btn-luckon{
+	color: #007EA0;
+}
+
+.btn-luckon:hover{
+  color: #007EA0;
+  background-color: rgba(255,255,255,0.8);
+}
